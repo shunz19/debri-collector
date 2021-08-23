@@ -12,7 +12,7 @@ game.start(undefined);
 var pid = 0;
 var sockets = {};
 
-httpServer.listen(918, () => {
+httpServer.listen(process.env.PORT || 918, () => {
 	console.log("Game listening at 918");
 })
 
