@@ -1,4 +1,4 @@
-import { Matter } from "./matter.js";
+import { Matter } from "./Matter.js";
 
 class Ship extends Matter {
 	constructor(x, y) {
