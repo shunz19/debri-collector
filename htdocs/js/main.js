@@ -1,4 +1,4 @@
-import { Canvas } from './renderer/canvas.js';
+import { Canvas } from './renderer/Canvas.js';
 import { SocketConnection } from './socket/connection.js';
 import { DebriGame } from './debri.js';
 
