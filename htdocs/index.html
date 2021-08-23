@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Debri Collector</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+</head>
+<body>
+	<div class="panel menu">
+		<div class="ctr">
+			<h2>Enter your spaceship name</h2>
+			<input type="text" id="m-name" class="f-ctrl" placeholder="Spaceship Name">
+			<input type="button" id="m-enter" class="f-ctrl success" value="Enter">
+		</div>
+	</div>
+	<div class="btm">
+		<table class="ctrl">
+			<tr>
+				<td></td><td id="w">W</td><td></td>
+			</tr>
+			<tr>
+				<td id="a">A</td><td id="s">S</td><td id="d">D</td>
+			</tr>
+		</table>
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="js/main.js" type="module"></script>
+</body>
+</html>
